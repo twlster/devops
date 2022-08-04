@@ -54,7 +54,6 @@ public class BasicApplicationTests {
     @MockBean //mock the mapper layer in order to have a unit test for weblayer 
     InvoiceResposeMapper irspm;
     private static final String PASSWORD = "admin";
-	
     private static final String USER = "admin";
 
     public static String asJsonString(final Object obj) {
